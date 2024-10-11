@@ -1,0 +1,9 @@
+[submodule "personal_fuzztest"]
+	path = personal_fuzztest
+	url = https://github.com/google/fuzztest.git
+[submodule "fuzztest"]
+	path = fuzztest
+	url = https://github.com/google/fuzztest.git
+[submodule "third/fuzztest"]
+	path = third/fuzztest
+	url = https://github.com/google/fuzztest.git
