@@ -27,6 +27,10 @@ CC=clang CXX=clang++ cmake -DCMAKE_BUILD_TYPE=RelWithDebug -DFUZZTEST_FUZZING_MO
 cmake --build .
 
 # run the tests
+# run all unit tests
+./my_fuzz
+
+# run fuzz test
 #./my_fuzz --fuzz=<TestSuiteName>.<TestName>
 ./my_fuzz --fuzz=StringTest.TestCatString
 ```
