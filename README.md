@@ -16,8 +16,12 @@ check https://github.com/google/fuzztest/blob/main/doc/quickstart-cmake.md for o
 git clone https://github.com/yMsquare/personal_fuzztest.git
 cd my_fuzz
 
+#submodule
+git submodule update --init
+
 # create dir build
 mkdir build && cd build
+
 
 # generating CMakeLists
 CC=clang CXX=clang++ cmake -DCMAKE_BUILD_TYPE=RelWithDebug -DFUZZTEST_FUZZING_MODE=on ..
