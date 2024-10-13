@@ -31,8 +31,8 @@ cmake --build .
 ./my_fuzz
 
 # run fuzz test
-#./my_fuzz --fuzz=<TestSuiteName>.<TestName>
-./my_fuzz --fuzz=StringTest.TestCatString
+#./my_test --fuzz=<TestSuiteName>.<TestName>
+./my_test --fuzz=StringTest.TestCatString
 ```
 
 # Errors
